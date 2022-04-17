@@ -7,36 +7,7 @@ App Link: https://sign-forgery-detection.herokuapp.com/
 
 Dataset Link: https://www.kaggle.com/robinreni/signature-verification-dataset
 
-![demo](https://github.com/ChiragChauhan4579/Sign-forgery-detection/blob/main/1623143565581.gif)
-## Run Locally
 
-Clone the project
-
-```bash
-  git clone https://github.com/ChiragChauhan4579/Sign-forgery-detection
-```
-
-Go to the project directory
-
-```bash
-  cd Sign-forgery-detection
-```
-
-Install dependencies
-
-```bash
-  pip freeze > requirements.txt
-```
-
-Make sure to add your database details and change allowed host in settings.py file.
-
-Start the server
-
-```bash
-  python manage.py runserver
-```
-
-  
 ## Documentation
 
 After importing the dataset, the images are combined in pair of 2 as combination of either real-real or real-fake signatures. By using the for loop the images are resized and returned properly with the function.
